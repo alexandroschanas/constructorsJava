@@ -62,6 +62,22 @@ public class bankAccount {
 
     }
 
+    public bankAccount(){
+        System.out.println("Empty constructor called");
+    }
+
+    public bankAccount(String accountName,String customerName,int accountBalance,String phoneNum,String email){
+
+        System.out.println("Contructor with parameters called");
+        this.accountName = accountName;
+        this.customerName = customerName;
+        this.accountBalance = accountBalance;
+        this.phoneNum = phoneNum;
+        this.email = email;
+
+
+    }
+
     public void deposit(int depositValue){
 
         accountBalance += depositValue;

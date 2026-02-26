@@ -3,11 +3,10 @@
 public class Main {
     public static void main(String[] args) {
 
-        bankAccount myAccount = new bankAccount();
-        myAccount.setAccountName("Alex");
-        myAccount.setAccountBalance(10000);
-        myAccount.widthdraw(10);
-        myAccount.displayInfo();
+        customer alex = new customer("Alex","alex@alex.gr");
+        customer alex2 = new customer("Alex",55,"alex2@alex.gr");
+
+
 
         }
     }
